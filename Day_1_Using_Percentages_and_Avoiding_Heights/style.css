@@ -19,6 +19,8 @@ html, body {
     background-color: darkblue;
     border: 1px solid black;
     height: 500px;
+    width: 50%;
+    margin: 0 auto;
     overflow: hidden;
     color: darkgray;
 }
