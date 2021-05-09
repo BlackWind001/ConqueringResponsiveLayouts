@@ -16,12 +16,18 @@ html, body {
 
 .container {
     background-color: #23424A;
-    padding: 9.25rem 7.625rem;
+    display: flow-root;
+    /* Having to set display: flow-root over here in order to create a block formatting
+    context as the margins were collapsing. For more info and sources go through the
+    style sheets in the following repo: https://github.com/BlackWind001/Frontend */
 }
 
 .inner_container {
     width: 50%;
     max-width: 750px;
+    margin: 9.25rem 10%;
+    /* Having trouble with margins on smaller devices where the margin-left is 10%
+    of the parent as mentioned however, the margin-right seems to stretch quite a bit. */
 }
 
 .inner_heading {
@@ -37,6 +43,9 @@ html, body {
 }
 
 button {
+    width: 100%;
+    max-width: 300px;
+
     background-color: #38cfd9;
     border-radius: 2rem;
     padding: 1rem 3rem;

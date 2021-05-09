@@ -1,0 +1,98 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+html {
+    min-width: 320px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.app-root {
+    max-width: 1920px;
+}
+
+/* Common class styles */
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.row p{
+    font-size: 1.3125rem;
+    font-weight: 400;
+}
+
+.btn {
+    font-size: 1.3125rem;
+    line-height: 2rem;
+    font-weight: 600;
+    border: 0;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    color: black;
+    background-color: #38cfd9;
+}
+
+.col--heading {
+    font-size: 2.25rem;
+    text-align: center;
+}
+
+.col--text {
+    text-align: center;
+}
+
+/* Specific class styles */
+.hero {
+    background-color: #23424a;
+    color: #ffffff;
+    padding: 9.25rem 0;
+}
+.hero--content {
+    max-width: 710px;
+}
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 3.5rem;
+}
+.hero p {
+    font-size: 1.3125rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.outer-light-container {
+    background-color: #ffffff;
+    padding: 3rem 0;
+}
+
+.outer-light-container .col--heading {
+    color: #87629a;
+}
+
+.outer-light-container .row .col + .col {
+    margin-left: 1rem;
+}
+
+.outer-dark-container {
+    background-color: #136c72;
+    padding: 3rem 0;
+    color: #ffffff;
+}
+
+.outer-dark-container .row .col + .col {
+    margin-left: 2rem;
+}

@@ -1,0 +1,88 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    min-width: 320px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-container {
+    /* The following value is set to create a Block Formatting Context */
+    display: flow-root;
+    background-color: #23424a;
+    color: white;
+}
+
+.hero {
+    width: 80%;
+    margin-top: 9.25rem;
+    margin-bottom: 9.25rem;
+    margin-left: 8.472%;
+}
+
+.hero--text {
+    max-width: 710px;
+}
+
+.hero_text--heading {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 3.5rem;
+}
+
+.hero_text--content {
+    font-size: 1.3125rem;
+    line-height: 2rem;
+}
+
+.btn {
+    font-size: 1.3125rem;
+    line-height: 2rem;
+    font-weight: 600;
+    border: 0;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    color: black;
+    background-color: #38cfd9;
+}
+
+.row {
+    display: flex;
+    padding: 3rem 8.472% 3rem 8.472%;
+}
+
+.col_heading {
+    font-size: 2.25rem;
+    text-align: center;
+}
+
+.col_text {
+    font-size: 1.3125rem;
+    text-align: center;
+}
+
+.dark-row {
+    background-color: #136c72;
+    color: white;
+}
+
+.light-row .col + .col {
+    margin-left: 1rem;
+}
+
+.dark-row .col + .col {
+    margin-left: 2rem;
+}
+
+.light-row .col_heading {
+    color: #87629a;
+}
