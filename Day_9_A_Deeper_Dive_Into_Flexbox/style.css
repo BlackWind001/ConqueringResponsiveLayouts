@@ -1,0 +1,86 @@
+html {
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.3125rem;
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+img {
+    /* Although this style is not necessary in the current case,
+    I want to make it a practice to include this at the beginning
+    of every CSS file. */
+    max-width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
+
+.btn {
+    height: 3.5rem;
+    margin-top: 3rem;
+    padding: 0.75rem 2rem;
+    border: 0;
+    border-radius: 1.75rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #23424a;
+    background-color: #38cfd9;
+}
+
+.hero {
+    background-color: #23424a;
+}
+.hero__text {
+    width: 60%;
+    color: #ffffff;
+}
+
+.main-content {
+    width: 60%;
+}
+.main-content h2 {
+    color: #136c72;
+}
+
+.side-col{
+    width: 30%;
+    border: 1px solid black;
+    padding: 1.75rem 2rem;
+    background-color: #136c72;
+    color: #ffffff;
+    text-align: center;
+}
+.side-col section + section {
+    margin-top: 3rem;
+}
+.side-col h2{
+    margin: 0;
+    padding: 0;
+}
