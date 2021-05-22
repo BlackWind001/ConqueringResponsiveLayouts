@@ -18,12 +18,19 @@
             <img src="./hero-img.jpg">
         </div>
     </div>
+    <!-- It is better to make the following <div> a <main> tag. -->
     <div class="container row">
         <div class="main-content">
             <h2>Quality designs made custom, on demand, just for you</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
         </div>
+        <!-- In the below div it is not necessary to have the `col` class.
+            I am only keeping it because I realized later that it wasn't necessary.
+            However, in an ideal design, it should not be present. Reason being,
+            that all the elements within the <aside> are block elements. So, even
+            without the css properties of `col`, it would render as a column as is expected.
+        -->
         <aside class="col side-col">
             <section>
                 <h2>Cheap</h2>
