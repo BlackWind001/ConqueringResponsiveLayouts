@@ -8,3 +8,6 @@ You can go directly to the course page and start your free subscription by going
 Additionally, since this course does not cover Grid, try taking a look at the following:
 -> https://www.euismod.dev/#/
 (Newer sources need to be added as I find them)
+
+Device ID: 94A6B638-E3C2-4E45-A205-C00C396FF6C7
+Product ID: 00327-35899-71676-AAOEM
